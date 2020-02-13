@@ -31,6 +31,9 @@ Temporarily none.
 **L3**
 
 1. What did we do?
+
+We continued programming the dice in the processing and drew the graph to help us observe.
+
 ones = 0
 twos = 0
 threes = 0
