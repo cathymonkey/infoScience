@@ -1,5 +1,5 @@
 # This is the journal for Comp Sci
-*L1*
+**L1**
 
 1. What did we do?
 
@@ -14,7 +14,7 @@
   
   Temporarily none.
   
-*L2*
+**L2**
 
 1. What did we do?
 
@@ -28,7 +28,7 @@ I had a lot of fun while learning how to program a biased dice in the processing
 
 Temporarily none.
 
-*L3*
+**L3**
 
 1. What did we do?
 ones = 0
