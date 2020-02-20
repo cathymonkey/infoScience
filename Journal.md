@@ -35,39 +35,48 @@ Temporarily none.
 We continued programming the dice in the processing and drew the graph to help us observe.
 
 ones = 0
+
 twos = 0
+
 threes = 0
+
 fours = 0
+
 fives = 0
-sixes = 0## counting
+
+sixes = 0 ## counting
+
 
 def setup():
+
     size(600,800)
 
 def draw():
+
     x=0
     delay(200)
     mouseClick()
     barGraph()
     
 def barGraph():
+
     global ones
     fill(0)
     textSize(20)
     for x in range(6):
         text(x+1,(50+50*x),580)
-    fill(255,0,0)    
+    fill(255,0,0) 
+    
     rect(50,550-ones, 20, ones)
     rect(100, 550-twos, 20, twos)
     rect(150, 550-threes, 20, threes)
     rect(200, 550-fours, 20, fours)
     rect(250, 550-fives, 20, fives)
     rect(300, 550-sixes,20, sixes)
+ 
+    
+    def mouseClick():
 
-    
-    
-    
-def mouseClick():
     global ones, twos, threes, fours, fives, sixes
     background(255)
     stroke(0)
@@ -123,6 +132,49 @@ I learnt how to draw a bargraph to record the counting.
 
 If I want to choose Computer Science in G11, what should I prepare?
          
-            
+**L4**
 
+1. What did we do?
 
+We programmed the chessboard in the processing and made it illutional at last. Also, we made our own illutional patterns.
+
+Here is mine:
+
+def setup():
+
+    size(600,400)
+    background(0)
+    
+def draw():
+
+    y = 25
+    stroke(155)
+    strokeWeight(8)
+    for n in range(8):
+        line(0,y,600,y)
+        y += 50    
+    x = 25  
+      
+    for n in range(12):
+        line(x,0,x,400)
+        x += 50 
+    fill(255)
+    stroke(255)   
+    c = 25
+    
+    for m in range(12):
+        p = 25
+        for n in range(8):
+            circle(c,p,5)
+            p += 50
+        c+=50
+    
+ 
+                
+2. What did you learn?
+
+I learnt how to break down a big problem into different small sections and how to create a "for loop" more complicatedly.
+
+3.What question do I have?
+
+Temporaily not.
