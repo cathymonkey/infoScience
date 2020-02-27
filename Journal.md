@@ -178,3 +178,23 @@ I learnt how to break down a big problem into different small sections and how t
 3.What question do I have?
 
 Temporaily not.
+
+**L5**
+
+1. What did we do?
+
+We made a short presentation of our own optical illusion that we made last class. *Note:* **one** *slide but include my 
+
+name,my illusion and its name, the information about original illusion and its inventor, the general step to make the illusion 
+
+and references. 
+
+2. What did we learn?
+
+We learnt how to demonstrate the optical illusion or work in the processing and some other information about the optical 
+
+illusions.
+
+3.What question do I have?
+
+Temporarily not.
