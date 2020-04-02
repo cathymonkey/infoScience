@@ -199,12 +199,4 @@ illusions.
 
 Temporarily not.
 
-**Reflection**
 
-1.Describe one situation in the second part of Info Science(computer science) where you have felt accomplishment/joy?
-
-
-
-2.Regarding the computational thinking skills(decomposition, pattern recognition, algorithm thinking,abstraction), what have
-
-you learnt/improved since we started?
