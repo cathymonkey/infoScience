@@ -201,3 +201,18 @@ Temporarily not.
 
 **Week 28**
 
+1. What did we do?
+
+I first read the article "How your personal computer can help science battle the coronavirus while you sleep" by John D'Anna
+and thought about the two questions below:
+
+*1. What are some ways in which Computer Science can help the fight against Covid-19?*
+
+*2. In your opinion, should people enable access to the resources of their personal computers as tools for research? Are there any risks?*
+
+
+
+2. What did we learn?
+
+3. What question do I have?
+
