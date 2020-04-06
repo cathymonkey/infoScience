@@ -201,7 +201,7 @@ Temporarily not.
 
 **Week 28**
 
-1. What did we do?
+**1. What did we do?**
 
 I first read the article "How your personal computer can help science battle the coronavirus while you sleep" by John D'Anna
 and thought about the two questions below:
@@ -217,7 +217,7 @@ sum up, the choice is decided by people based on their trust on the project.
 
 Then I watched the video and programmed a small part of simulation of spreading out the virus in the community.
 
-2. What did we learn?
+**2. What did we learn?**
 
 I learnt how to program objects moving freely within the border and here is my code:
 
@@ -252,13 +252,13 @@ def draw():
 
 *Q:What should be some behaviours (at least 3) that we will need to include in our simulation to be a realistic approximation of the current situation in the world? Explain.*
 
-1) Health conditions of individuals;
-2) conditions of being contracted;
-3) graphs that shows the speed of spreading out the virus and the number of the infected population;
-4) different population densities in different parts of the world.
+1 Health conditions of individuals; - we can use different colors to represent the person is healthy or infected.
+2 conditions of being contracted;- we can assume if an infected person met with another person in a room for a certain time or for many times, then another person is going to be infected.
+3 graphs that shows the speed of spreading out the virus and the number of the infected population;
+4 different population densities in different parts of the world.
 
 
-3. What question do I have?
+**3. What question do I have?**
 
 Temporaily not.
 
