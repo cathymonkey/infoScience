@@ -219,5 +219,46 @@ Then I watched the video and programmed a small part of simulation of spreading 
 
 2. What did we learn?
 
+I learnt how to program objects moving freely within the border and here is my code:
+
+x = [300,200,100,50,150,250,400,450,135,350,270,460,330,80]
+
+y = [300,200,100,50,150,250,400,450,245,250,360,280,120,375]
+
+def setup():
+
+    size(500,500)
+    
+def draw():
+
+    global x,y
+    background(255)
+    strokeWeight(2)
+    #create individuals 
+    for i in range(14):
+        circle(x[i], y[i], 40) #create individual
+        x[i] = x[i] + random(-10,10)
+        y[i] = y[i] + random(-10,10)
+        # bounderies conditions
+        if x[i] > 480:
+            x[i] = 480
+        if x[i]< 20:
+            x[i] = 20
+        if y[i] >480:
+            y[i] = 480
+        if y[i] < 20:
+            y[i] = 20    
+        delay(20)
+
+/*Q:What should be some behaviours (at least 3) that we will need to include in our simulation to be a realistic approximation of the current situation in the world? Explain./*
+
+1) Health conditions of individuals;
+2) conditions of being contracted;
+3) graphs that shows the speed of spreading out the virus and the number of the infected population;
+4) different population densities in different parts of the world.
+
+
 3. What question do I have?
+
+Temporaily not.
 
