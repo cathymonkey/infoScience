@@ -250,7 +250,7 @@ def draw():
             y[i] = 20    
         delay(20)
 
-/*Q:What should be some behaviours (at least 3) that we will need to include in our simulation to be a realistic approximation of the current situation in the world? Explain./*
+*Q:What should be some behaviours (at least 3) that we will need to include in our simulation to be a realistic approximation of the current situation in the world? Explain.*
 
 1) Health conditions of individuals;
 2) conditions of being contracted;
