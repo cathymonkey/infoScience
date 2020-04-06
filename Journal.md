@@ -252,10 +252,13 @@ def draw():
 
 *Q:What should be some behaviours (at least 3) that we will need to include in our simulation to be a realistic approximation of the current situation in the world? Explain.*
 
-1 Health conditions of individuals; - we can use different colors to represent the person is healthy or infected.
-2 conditions of being contracted;- we can assume if an infected person met with another person in a room for a certain time or for many times, then another person is going to be infected.
-3 graphs that shows the speed of spreading out the virus and the number of the infected population;
-4 different population densities in different parts of the world.
+1 Health conditions of individuals; - we can use different colors to represent the person is healthy or infected
+
+2 conditions of being contracted;- we can assume if an infected person met with another person in a room for a certain time or for many times, then another person is going to be infected
+
+3 graphs that shows the speed of spreading out the virus and the number of the infected population;- program graphs
+
+4 different population densities in different parts of the world - program different number of individuals in different areas.
 
 
 **3. What question do I have?**
