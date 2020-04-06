@@ -208,9 +208,14 @@ and thought about the two questions below:
 
 *1. What are some ways in which Computer Science can help the fight against Covid-19?*
 
+We can understand the protein structure the coronavirus contains and how these proteins work by programming a simulation on a large number of computers. Therefore, we can effectively find a treatment to stop the proteins work which means killing the virus.  
+
 *2. In your opinion, should people enable access to the resources of their personal computers as tools for research? Are there any risks?*
 
+I think people should but not required to. Even though the scientists have built the internet security system for the project, it can't avoid being attacked 100%. Also, there is lots of privacy in personal resources stored in the computers. However, it's really meaningful to help run the project as it can take a big step on researching coronavirus. To 
+sum up, the choice is decided by people based on their trust on the project.
 
+Then I watched the video and programmed a small part of simulation of spreading out the virus in the community.
 
 2. What did we learn?
 
