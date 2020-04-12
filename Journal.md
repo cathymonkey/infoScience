@@ -294,17 +294,25 @@ def temperature():
         print(i, "C are", f, "F")
         
 printBears()
+
 printYears()
+
 temperature() 
 
 Then we kept working on the simulation of spreading out the coronavirus. We drew the bargraphs and counted the number of iterations until all the population is infected. 
 
 x = [100,200]
+
 y = [100,250]
+
 h = [False, True]
+
 healthy =0
+
 infected = 0
+
 iteration = 0
+
 def setup():
 
     size(500,500)
@@ -389,21 +397,48 @@ def bargraph():
         
  Also, we filled in the table below to find out some relations between different factors when the virus is spreading.
  
-*/ Relations between the number of people moving and its infecting speed */
+ *Relations between the number of people moving and its infecting speed* 
  
- Case Number   Number of people moving    Population size   Number of iterations until all population is infected
+ Case Number  |    Number of people moving  |   Population size    |   Number of iterations until all population is infected
+ 
       1             25                        25                        11411
+
       2             20                        25                        7244
+      
       3             15                        25                        6095
+      
       4             10                        25                        8840
+      
       5             5                         25                        8549
       
   Conclusion: Usually, the more people are moving, the longer time it will take to infect the whole population. Sometimes,
   however, if there are only a few people are moivng, it will take them more time to infect the virus to the whole population.
   
-  Here is another table to show 
- 
+  Here is another table to show the relation between population size in a certain area and the infecting speed.
+  
+  *Relations between the number of people moving and its infecting speed
+  
+   Case Number  |    Number of people moving  |   Population size    |   Number of iterations until all population is infected
+  					
+ 			1											25												25													6577
+			
+			2											40												40       										5411													
+			
+			3											50											  50													5252
+			
+			4											80												80													4616
+			
+			5											100												100													4746
+			
+	Conclusion: According to the calculations, the speed of infecting each indidual is faster when there are more people in a
+	
+	certain area. So, virus can spread out in a more densed place and that's why recently we avoid going to public places and 
+	
+	gatherings where has the highest risk of being infected.
 
 **2. What did we learn?**
+
+I learnt how to make a counter in Python and understood the important factors we should consider when making a simulaiton. By 
+making this simulation, I mastered some new skills and drew some conclusions to help us protect ourselves during the coronavirus period. I enjoyed this task.
 
 **3. What questions do I have?**
