@@ -273,12 +273,15 @@ We first worked on some small programs as the following:
 
 def printBears():
 
+
   for i in range(0, 101, 1):
-        if i == 1:
-            print(i, "bear")
-        else:
-            print(i, "bears")
-        
+  
+    if i == 1:
+    
+      print(i, "bear")
+    else:
+      print(i, "bears")
+
 def printYears():
 
     for i in range(1900, 2001, 1):
