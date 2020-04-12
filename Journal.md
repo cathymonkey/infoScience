@@ -299,6 +299,111 @@ temperature()
 
 Then we kept working on the simulation of spreading out the coronavirus. We drew the bargraphs and counted the number of iterations until all the population is infected. 
 
+x = [100,200]
+y = [100,250]
+h = [False, True]
+healthy =0
+infected = 0
+iteration = 0
+def setup():
+
+    size(500,500)
+    for i in range(23):
+        x.append(random(0,500))
+        y.append(random(0,500))
+        h.append(True)#healthy
+        
+def distance(x1, x2, y1, y2):
+
+    a = (x1-x2)
+    b = (y1-y2)
+    c = sqrt(a**2+b**2)
+    return c 
+
+def draw():
+
+    global x,y,healthy,infected,iteration
+    background(255)
+    bargraph()
+    for ind in range(len(x)):
+        if h[ind] == True:
+            fill(0,255,0)# green healthy
+        
+            
+            
+        else:
+            fill(255,0,0)# red infected
+        
+        
+        circle(x[ind],y[ind],40)
+        #calculate the distance to each neighbour
+        for nei in range(len(x)):
+            if nei == ind:
+                continue
+                
+            
+            d = distance(x[ind],x[nei], y[ind], y[nei])
+            if d <= 40 and (h[nei] == False or h[ind] == False):
+                h[ind] = False
+                h[nei] = False
+        
+    #move the individuals
+    for m in range(len(x)):
+        iteration += 1
+        print("iteration",iteration)
+        x[m] += random(-20,20)
+        y[m] += random(-20,20)
+        
+        if x[m] > 480: x[m] = 480
+        if x[m] < 20: x[m] = 20
+        if y[m] < 20: y[m] = 20
+        if y[m] > 480: y[m] = 480
+        
+    delay(100)
+    # number of healthy/sick
+    infected=0
+    healthy=0
+    for n in range(len(h)):
+        if h[n] == False:
+            infected +=1
+        else:
+            healthy += 1
+    # here increase iterations
+    iteration += 1     
+        
+def bargraph():
+
+    fill(0)
+    textSize(12)
+    text("infected",10,450)
+    text(infected, 40+infected+50, 460)
+    text("healthy", 10,480)
+    text(healthy,40+healthy+50,490)
+    text("iteration:",380,470)
+    text(iteration, 440,470) 
+    fill(255,0,0)
+    rect(40, 450, 40+infected, 10)
+    fill(0,255,0)
+    rect(40, 480, 40+healthy, 10)
+        
+        
+ Also, we filled in the table below to find out some relations between different factors when the virus is spreading.
+ 
+*/ Relations between the number of people moving and its infecting speed */
+ 
+ Case Number   Number of people moving    Population size   Number of iterations until all population is infected
+      1             25                        25                        11411
+      2             20                        25                        7244
+      3             15                        25                        6095
+      4             10                        25                        8840
+      5             5                         25                        8549
+      
+  Conclusion: Usually, the more people are moving, the longer time it will take to infect the whole population. Sometimes,
+  however, if there are only a few people are moivng, it will take them more time to infect the virus to the whole population.
+  
+  Here is another table to show 
+ 
+
 **2. What did we learn?**
 
 **3. What questions do I have?**
