@@ -420,21 +420,17 @@ def bargraph():
   
    Case Number  |    Number of people moving  |   Population size    |   Number of iterations until all population is infected
   					
- 			1											25												25													6577
+     1				25			25				6577																		
+     2		                40			40				5411													
+     3				50			50				5252
+
+     4				80			80				4616
+    
+     5				100			100				4746
 			
-			2											40												40       										5411													
-			
-			3											50											  50													5252
-			
-			4											80												80													4616
-			
-			5											100												100													4746
-			
-	Conclusion: According to the calculations, the speed of infecting each indidual is faster when there are more people in a
-	
-	certain area. So, virus can spread out in a more densed place and that's why recently we avoid going to public places and 
-	
-	gatherings where has the highest risk of being infected.
+Conclusion: According to the calculations, the speed of infecting each indidual is faster when there are more people
+in a certain area. So, virus can spread out in a more densed place and that's why recently we avoid going to public
+places and gatherings where has the highest risk of being infected.
 
 **2. What did we learn?**
 
@@ -442,3 +438,5 @@ I learnt how to make a counter in Python and understood the important factors we
 making this simulation, I mastered some new skills and drew some conclusions to help us protect ourselves during the coronavirus period. I enjoyed this task.
 
 **3. What questions do I have?**
+
+Temproraily not.
