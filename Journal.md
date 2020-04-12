@@ -265,3 +265,37 @@ def draw():
 
 Temporaily not.
 
+**Week 29**
+
+**1. What did we do?**
+
+We first worked on some small programs as the following:
+
+def printBears():
+
+  for i in range(0, 101, 1):
+        if i == 1:
+            print(i, "bear")
+        else:
+            print(i, "bears")
+        
+def printYears():
+
+    for i in range(1900, 2001, 1):
+        print("The year is", i)
+        
+def temperature():
+
+    for i in range(0, 101, 1):
+        f = round(i*1.8 + 32,2) # remain two decimals
+        print(i, "C are", f, "F")
+        
+printBears()
+printYears()
+temperature() 
+
+Then we kept working on the simulation of spreading out the coronavirus. We drew the bargraphs and counted the number of iterations until all the population is infected. 
+
+**2. What did we learn?**
+
+**3. What questions do I have?**
