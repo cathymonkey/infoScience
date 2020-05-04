@@ -440,3 +440,151 @@ making this simulation, I mastered some new skills and drew some conclusions to 
 **3. What questions do I have?**
 
 Temproraily not.
+
+**Week 30**
+
+1. What did we do?
+
+I kept doing the simulation of how coronavirus spread and how people were treated. 
+
+x = [100,200]
+
+y = [200,100]
+
+h = ["healthy", "infected"]
+
+healthy = 0
+
+infected = 2
+
+recovered = 0
+
+peopleMoving = 30
+
+iteration = 0
+
+days = [30,-1]
+
+rDays = int(random(30,60))
+
+
+def setup():
+
+    global x,y,h,peopleMoving
+    size(500,600)
+    for i in range(28):           
+        x.append(random(0,500))
+        y.append(random(0,500))
+        h.append("healthy")
+        days.append(-1)
+        
+def distance(x1, x2, y1, y2):
+
+    a = (x1-x2)
+    b = (y1-y2)
+    c = sqrt(a**2+b**2)
+    return c 
+
+def draw():
+
+    global x,y,healthy,infected,iteration,recovered,peopleMoving,days,rDays
+    background(255)
+    bargraph()
+
+    for ind in range(peopleMoving):
+        if h[ind] == "healthy":
+            fill(0,255,0)# green healthy
+            
+        elif h[ind] == "recovered": # blue recovered
+            fill(0,250,255)
+            
+        else:
+            fill(255,0,0)  # red infected
+            
+        if h[ind] == "infected":
+            days[ind] -= 1
+            if days[ind] == 0:
+                h[ind] = "recovered"
+                recovered += 1
+                days[ind] = 0   
+        
+        circle(x[ind],y[ind],40)
+        #calculate the distance to each neighbour
+        for nei in range(peopleMoving):
+            if nei == ind:
+                continue
+                
+            
+            d = distance(x[ind],x[nei], y[ind], y[nei])
+            if d <= 40 and (h[nei] == "infected" or h[ind] == "infected"):
+                if h[nei] == "healthy":
+                    h[nei] = "infected"
+                    days[nei] = rDays
+                if h[ind] == "healthy":
+                    h[ind] = "infected"
+                    days[ind] = rDays
+             
+    
+        
+    #move the individuals
+    for m in range(peopleMoving):
+        iteration += 1
+        print("iteration",iteration)
+        x[m] += random(-20,20)
+        y[m] += random(-20,20)
+        
+        if x[m] > 480: x[m] = 480
+        if x[m] < 20: x[m] = 20
+        if y[m] < 20: y[m] = 20
+        if y[m] > 480: y[m] = 480
+        
+    delay(100)
+    # number of healthy/sick
+    infected=0
+    healthy=0
+    recovered=0
+    for n in range(len(h)):
+        if h[n] == "infected":
+            infected +=1
+        elif h[n] == "recovered":
+            recovered += 1
+        else:
+            healthy += 1
+    # here increase iterations
+    iteration += 1
+        
+        
+def bargraph():
+
+    peopleMoving = len(x)
+    line(0,500,500,500)
+    fill(0)
+    textSize(14)
+    text("peopleMoving:",360,550)
+    text(peopleMoving,470,550)
+    text("recovered",10, 520)
+    text(recovered, 40+recovered+50,515)
+    text("infected",10,550)
+    text(infected, 40+infected+50, 540)
+    text("healthy", 10,580)
+    text(healthy,40+healthy+50,570)
+    text("iteration:",360,570)
+    text(iteration, 430,570) 
+    fill(255,0,0)
+    rect(90, 540, infected, 13)
+    fill(0,255,0)
+    rect(90, 570, healthy, 13)
+    fill(0,250,255)
+    rect(90,510,recovered,13)
+        
+
+2. What did we learn?
+
+I learnt how important and helpful roles computer science plays in our daily life. Also, I learnt how to program the counter 
+
+and set mutiple conditions. 
+
+3. What questions do I have?
+
+Temproraily not.
+
