@@ -633,9 +633,7 @@ Then I watched the video about Cicada 3310 which was an internet mystery.
 8) Then people will notice the two prime numbers coming from the dimensions of the original image.
 9) Mutiply the three prime numbers and use the product as a web address.(www.xxxxx(product).com)
 10)Go to the web and people will see a countdown. When the countdown reaches zero, there will be a list of coordinates which 
-
 show the locations of the participants around the globe.
-
 At each location, there are posters with QR code.
 11) Scan the code and people will see an image. The image contains a riddle and decipher it, people will get a link to a book. 
 Then the book will lead you to a website.
