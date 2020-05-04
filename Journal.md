@@ -441,7 +441,7 @@ making this simulation, I mastered some new skills and drew some conclusions to 
 
 Temproraily not.
 
-**Week 30**
+**Week 31**
 
 1. What did we do?
 
@@ -590,7 +590,7 @@ and set mutiple conditions.
 
 Temproraily not.
 
-**Week 31 - Cryptography**
+**Week 33 - Cryptography**
 
 1. What did we do?
 
