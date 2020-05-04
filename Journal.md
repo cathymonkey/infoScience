@@ -594,7 +594,44 @@ Temproraily not.
 
 1. What did we do?
 
+We deciphered the texts by using Caesar Cipher(letter frequency).
+
+This is the first original text:"F gtd bfx fy f hfwsnafq fsi bjsy yt f gttym bmjwj f rfs xfni yt ymj gtd, "Nk N bwnyj dtzw 
+
+jcfhy
+
+bjnlmy ts ymnx unjhj tk ufujw ymjs dtz mfaj yt lnaj rj $50, gzy nk N hfssty, N bnqq ufd dtz $50." Ymj gtd qttpji fwtzsi fsi
+
+xfb st xhfqj xt mj flwjjx, ymnspnsl st rfyyjw bmfy ymj hfwsd bwnyjx mj'qq ozxy xfd mj bjnlmx rtwj tw qjxx. Ns ymj jsi ymj gtd 
+
+jsiji zu ufdnsl ymj rfs $50. Mtb ini ymj rfs bns ymj gjy?"
+
+
+Decode: A boy was at a carnival and went to a booth where a man said to the boy,"If I write your exact weight on this piece of 
+
+paper then you have to give me $50, but if I cannot, I will pay you $50." The boy looked around and saw no scale so he agrees, 
+
+thinking no matter what the carny writes he'll just say he weighs more or less. In the end the boy ended up paying the man 
+
+$50. How did the man win the bet? 
+
+Answer: Because the man wrote "your exact weight" on the paper.
+
+Then I watched the video about Cicada 3310 which was an internet mystery.
+
+What were the clues used in the cicada scavenger hunt?
+
+They were the encrypted web address after extracting an image or encrypted books or audio.
+
 2. What did we learn?
 
+We learnt one of the ways to deciphering the code( Caesar Cipher) and leanrt about an interesting mystery about cryptography.
+
 3. What questions do I have?
+
+How can we encrypt the symbols and numbers? Also, I think leaving space between words and words will make it easier to decode.
+
+For the first one, I simply thought "A" is usually put in the beginning of the sentence as a word, so I only tried one time 
+
+and it was decoded.
 
