@@ -592,7 +592,7 @@ Temproraily not.
 
 **Week 33 - Cryptography**
 
-I really like crptography.
+I really like cryptography.
 
 1. What did we do?
 
