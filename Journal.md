@@ -621,9 +621,27 @@ Answer: Because the man wrote "your exact weight" on the paper.
 
 Then I watched the video about Cicada 3310 which was an internet mystery.
 
-What were the clues used in the cicada scavenger hunt?
+*/What were the clues used in the cicada scavenger hunt?*/
 
-They were the encrypted web address after extracting an image or encrypted books or audio.
+1) Use the text editor to open the file and people can find an appened string of readable text.
+2) Decipher the string and it will be a link to another image.
+3) Use the OutGuess app to extract the information hidden in the first image.
+4) The extracted information lead to a book with code inside.
+5) After uncovering the code in the book, people will find a phone number.
+6) Call that phone number and you will hear a prerecorded audio. 
+7) Then people will get the information about finding two more prime numbers hidden in the first image.
+8) Then people will notice the two prime numbers coming from the dimensions of the original image.
+9) Mutiply the three prime numbers and use the product as a web address.(www.xxxxx(product).com)
+10)Go to the web and people will see a countdown. When the countdown reaches zero, there will be a list of coordinates which 
+
+show the locations of the participants around the globe.
+
+At each location, there are posters with QR code.
+11) Scan the code and people will see an image. The image contains a riddle and decipher it, people will get a link to a book. 
+Then the book will lead you to a website.
+12) The website can only access when you are the first group of people who find it. 
+13) Wait for a month and then an image appeared in the subreddit, announcing the conclusion that the hunt is over.
+
 
 2. What did we learn?
 
