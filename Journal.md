@@ -592,6 +592,8 @@ Temproraily not.
 
 **Week 33 - Cryptography**
 
+I really like crptography.
+
 1. What did we do?
 
 We deciphered the texts by using Caesar Cipher(letter frequency).
@@ -633,5 +635,5 @@ How can we encrypt the symbols and numbers? Also, I think leaving space between 
 
 For the first one, I simply thought "A" is usually put in the beginning of the sentence as a word, so I only tried one time 
 
-and it was decoded.
+and it was decoded. 
 
