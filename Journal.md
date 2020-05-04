@@ -445,7 +445,9 @@ Temproraily not.
 
 1. What did we do?
 
-I kept doing the simulation of how coronavirus spread and how people were treated. 
+I kept doing the simulation of how coronavirus spread and added how people would be treated. After finishing the simulation, I 
+
+did a reflection video on the simulation project.
 
 x = [100,200]
 
@@ -587,4 +589,12 @@ and set mutiple conditions.
 3. What questions do I have?
 
 Temproraily not.
+
+**Week 31 - Cryptography**
+
+1. What did we do?
+
+2. What did we learn?
+
+3. What questions do I have?
 
