@@ -621,7 +621,7 @@ Answer: Because the man wrote "your exact weight" on the paper.
 
 Then I watched the video about Cicada 3310 which was an internet mystery.
 
-*/What were the clues used in the cicada scavenger hunt?*/
+*What were the clues used in the cicada scavenger hunt?*
 
 1) Use the text editor to open the file and people can find an appened string of readable text.
 2) Decipher the string and it will be a link to another image.
