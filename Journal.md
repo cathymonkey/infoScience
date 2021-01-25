@@ -33,6 +33,7 @@ Temporarily none.
 1. What did we do?
 
 We continued programming the dice in the processing and drew the graph to help us observe.
+```.py
 
 ones = 0
 
@@ -123,6 +124,7 @@ def barGraph():
          circle(200,300,50)
          circle(400,300,50)
          sixes += 1 
+```
           
 2. What did you learn?
 
@@ -139,6 +141,7 @@ If I want to choose Computer Science in G11, what should I prepare?
 We programmed the chessboard in the processing and made it illutional at last. Also, we made our own illutional patterns.
 
 Here is mine:
+```.py
 
 def setup():
 
@@ -169,7 +172,7 @@ def draw():
             p += 50
         c+=50
     
- 
+ ```
                 
 2. What did you learn?
 
@@ -220,6 +223,7 @@ Then I watched the video and programmed a small part of simulation of spreading 
 **2. What did we learn?**
 
 I learnt how to program objects moving freely within the border and here is my code:
+```.py
 
 x = [300,200,100,50,150,250,400,450,135,350,270,460,330,80]
 
@@ -249,7 +253,7 @@ def draw():
         if y[i] < 20:
             y[i] = 20    
         delay(20)
-
+```
 *Q:What should be some behaviours (at least 3) that we will need to include in our simulation to be a realistic approximation of the current situation in the world? Explain.*
 
 1 Health conditions of individuals; - we can use different colors to represent the person is healthy or infected
@@ -271,6 +275,7 @@ Temporaily not.
 
 We first worked on some small programs as the following:
 
+```.py
 def printBears():
 
 
@@ -393,7 +398,7 @@ def bargraph():
     rect(40, 450, 40+infected, 10)
     fill(0,255,0)
     rect(40, 480, 40+healthy, 10)
-        
+ ```       
         
  Also, we filled in the table below to find out some relations between different factors when the virus is spreading.
  
@@ -448,6 +453,7 @@ Temproraily not.
 I kept doing the simulation of how coronavirus spread and added how people would be treated. After finishing the simulation, I 
 
 did a reflection video on the simulation project.
+```.py
 
 x = [100,200]
 
@@ -578,7 +584,7 @@ def bargraph():
     rect(90, 570, healthy, 13)
     fill(0,250,255)
     rect(90,510,recovered,13)
-        
+```
 
 2. What did we learn?
 
